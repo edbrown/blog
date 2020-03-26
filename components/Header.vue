@@ -30,7 +30,6 @@
                   }}</NavLink>
                 </li>
                 <SearchBox />
-                <Feed />
               </ul>
             </div>
           </div>
