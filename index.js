@@ -23,7 +23,7 @@ module.exports = themeConfig => {
       typeof themeConfig.summaryLength === 'number'
         ? themeConfig.summaryLength
         : 200,
-    pwa: !!themeConfig.pwa,
+    pwa: false,
   })
 
   /**
@@ -104,19 +104,6 @@ module.exports = themeConfig => {
     ['@vuepress/blog', blogPluginOptions],
     ['smooth-scroll', enableSmoothScroll],
   ]
-
-  /**
-   * Enable pwa
-   */
-  if (themeConfig.pwa) {
-    plugins.push([
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: true,
-      },
-    ])
-  }
 
   const config = {
     plugins,
