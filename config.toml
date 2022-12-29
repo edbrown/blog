@@ -3,6 +3,7 @@ title        = "My Blog"
 languageCode = "en-gb"
 theme        = "hello-friend"
 paginate     = 10
+googleAnalytics = "G-CTCE1QT00P"
 
 [params]
   showReadingTime = false
