@@ -1,4 +1,4 @@
-baseurl      = "edbrown.github.io"
+baseurl      = "https://www.edbrown.dev"
 title        = "My Blog"
 languageCode = "en-gb"
 theme        = "hello-friend"
