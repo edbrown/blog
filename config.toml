@@ -1,0 +1,39 @@
+baseurl      = "localhost"
+title        = "My Blog"
+languageCode = "en-gb"
+theme        = "hello-friend"
+paginate     = 10
+
+[params]
+  showReadingTime = false
+  contentTypeName = "posts"
+  defaultTheme = "light"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Hello Friend"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = " "
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "edb"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
