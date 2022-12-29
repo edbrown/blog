@@ -17,10 +17,8 @@ googleAnalytics = "G-CTCE1QT00P"
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+    title = "Ed Brown"
     keywords = ""
-    copyright = " "
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -32,7 +30,7 @@ googleAnalytics = "G-CTCE1QT00P"
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "edb"
+      logoText = "edbrown.dev"
       logoHomeLink = "/"
     # or
     #
