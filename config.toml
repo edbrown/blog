@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "edbrown.github.io"
 title        = "My Blog"
 languageCode = "en-gb"
 theme        = "hello-friend"
